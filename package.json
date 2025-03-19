@@ -3,6 +3,12 @@
   "displayName": "WilsonTheBallPack",
   "description": "Test Extension Pack",
   "version": "0.0.1",
+  "publisher": "MaxHutchins",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aiherrera/vscode-extension-package.git"
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -16,7 +22,6 @@
     "esbenp.prettier-vscode", 
     "github.copilot", 
     "github.copilot-chat", 
-    "humao.rest-client", 
     "mhutchie.git-graph", 
     "ms-azuretools.azure-dev", 
     "ms-azuretools.vscode-azure-github-copilot", 
@@ -41,7 +46,6 @@
     "ms-vscode.powershell", 
     "ms-vscode.vscode-node-azure-pack", 
     "ritwickdey.liveserver", 
-    "samverschueren.yo", 
     "streetsidesoftware.code-spell-checker"
   ]
 }
